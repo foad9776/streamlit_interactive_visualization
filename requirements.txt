@@ -1,7 +1,5 @@
-pandas
-plotly
 streamlit
-os
-inspect
+pandas
 numpy
-datetime 
+plotly
+openpyxl
