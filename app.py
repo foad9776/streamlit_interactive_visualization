@@ -689,10 +689,10 @@ with tab_data:
         default_cols = all_cols[:20]
     
     col_sel = st.multiselect(
-        "",
-        options=all_cols,
-        default=default_cols,
-        key=f"data_cols_{rt}",
+    "",
+    options=all_cols,
+    default=default_cols,
+    key=f"data_cols_{rt}",
     )
 
     st.markdown("</div>", unsafe_allow_html=True)
